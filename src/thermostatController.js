@@ -18,14 +18,15 @@ $('document').ready(function() {
 
   function update(colour) {
     $('body').css('background-color', colour)
-    $('#temp-display').text(thermostat.temp);
+    $('#temp-display').text(thermostat.temp)
     var temp = 100-((thermostat.temp-10)*3.90);
     if(thermostat.temp === 32){
-      $('#black').hide(1000);
+      $('#black').hide();
     }else{
-      $('#black').show(1000);
+      $('#black').show();
     };
     $('#black').css('height', temp + '%');
+    $('#temp-display').parent().toggleClass('flipper');  
   };
 
 
