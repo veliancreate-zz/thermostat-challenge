@@ -1,27 +1,42 @@
 body
 {
   background-color: black;
-  color: white;
+  color: black;
   font-family: arial;
   text-align: center;
 }
 
 h1{
-  margin-top: 30px;
+  position: absolute;
+  transform: rotate(90deg);
+  left: 55%;
+  font-size: 4em;
+  top: 40%;
 }
+
 
 h2
 {
   font-size: 100px;
   color: white;
+  background: none;
+  border: none;
 }
 
 section{
   position: absolute;
-  top: 50px;
-  left: 300px;
+  top: 20%;
+  left: 40%;
   height: 300px;
   width: 50px;
+}
+#form-div{
+  background:none;
+  border:none;
+  position: absolute;
+  top: 80%;
+  font-size: 1.5em;
+  right: 5%;
 }
 
 div{
@@ -47,4 +62,26 @@ div#black{
   position: absolute;
   opacity: .5;
   transition: all linear 0.5s;
+}
+
+.flip-container{
+  perspective: 1000;
+  width: 20%;
+  background: none;
+  border: none;
+  position: absolute;
+  left: 50%;
+}
+
+.flipper{
+  transform: rotateY(360deg);
+  transition: all ease-in-out .3s;
+  width: 100%;
+  background: none;
+  border: none;
+}
+
+#flip-parent{
+  background: none;
+  border:none;
 }
