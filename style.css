@@ -9,25 +9,25 @@ body
 h1{
   position: absolute;
   transform: rotate(90deg);
-  left: 55%;
-  font-size: 4em;
+  left: 60%;
+  font-size: 6em;
   top: 40%;
 }
 
 
 h2
 {
-  font-size: 100px;
+  font-size: 15em;
   color: white;
   background: none;
   border: none;
 }
 
-section{
+#thermo-container{
   position: absolute;
   top: 20%;
-  left: 40%;
-  height: 300px;
+  right: 25%;
+  height: 60%;
   width: 50px;
 }
 #form-div{
@@ -65,7 +65,7 @@ div#black{
 }
 
 .flip-container{
-  perspective: 1000;
+  perspective: 2000;
   width: 20%;
   background: none;
   border: none;
