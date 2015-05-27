@@ -8,7 +8,7 @@
 
 # Pair Partner
 
-During this task I was paired with [Julian Veling](https://github.com/veliancreate). 
+During this task I was paired with [Phil Brockwell](https://github.com/robertpulson). 
 
 We were able to complete the specification and add some extra functionality:
 
@@ -34,5 +34,3 @@ Then use `cd thermostat` to navigate to it.
 To open the test suite in the browser enter `open specrunner.html`.
 
 Run the page with `open index.html` but be careful not to leave the temperature too high.
-
-Ignorance is bliss...
