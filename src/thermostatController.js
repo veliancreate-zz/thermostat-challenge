@@ -27,9 +27,9 @@ $('document').ready(function() {
     $('body').css('background-color', getColour());
     $('#temp-display').text(thermostat.temp);
     if(thermostat.temp === thermostat.MAX_HIGH){
-      $('#black').hide();
+      $('#black').hide(1000);
     } else {
-      $('#black').show();
+      $('#black').show(1000);
       $('#black').css('height', getTempPer() + '%');
     };
     $('#temp-display').parent().toggleClass('flipper');  
@@ -56,3 +56,4 @@ $('document').ready(function() {
     update();
   });
 });
+
